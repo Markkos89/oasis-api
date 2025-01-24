@@ -20,6 +20,7 @@
   ],
   "scripts": {
     "server:dev": "ts-node-dev --transpile-only --respawn --ignore-watch node_modules src/index.ts",
+    "build": "ts-node src/index.ts",
     "test:dev": "jest"
   },
   "dependencies": {

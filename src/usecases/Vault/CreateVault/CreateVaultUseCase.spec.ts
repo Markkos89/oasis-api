@@ -2,7 +2,7 @@ import { CreateVaultUseCase } from "./CreateVaultUseCase";
 import { InMemoryVaultRepository } from "../../../repositories/implementations/in-memory";
 import { createVaultMock } from "../../../mocks";
 
-describe("Create VAult usecase", () => {
+describe("Create Vault usecase", () => {
   let inMemoryVaultRepository!: InMemoryVaultRepository;
   let createVaultUseCase: CreateVaultUseCase;
 
@@ -10,7 +10,7 @@ describe("Create VAult usecase", () => {
     createVaultUseCase = new CreateVaultUseCase(inMemoryVaultRepository);
   });
 
-  it("Should be able to create a new Post ", async () => {
+  it("Should be able to create a new Vault ", async () => {
     await expect(
       createVaultUseCase.execute(createVaultMock)
     ).resolves.not.toThrow();
