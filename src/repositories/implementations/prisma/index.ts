@@ -1,0 +1,1 @@
+export { PrismaVaultRepository } from "./PrismaVaultRepository";

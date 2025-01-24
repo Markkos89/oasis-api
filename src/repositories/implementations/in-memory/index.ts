@@ -1,0 +1,1 @@
+export { InMemoryVaultRepository } from "./InMemoryVaultRepository";

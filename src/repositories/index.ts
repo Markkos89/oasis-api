@@ -1,0 +1,1 @@
+export { IVaultRepository } from "./IVaultRepository";
